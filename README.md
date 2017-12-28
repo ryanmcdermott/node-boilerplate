@@ -24,7 +24,22 @@ npm install
 npm build
 ```
 
-## Running
+## Linting
+```bash
+npm run lint
+```
+
+## Testing
+```bash
+npm test
+```
+
+## Formatting (with Prettier)
+```bash
+npm run fmt
+```
+
+## Running example
 ```bash
 npm start
 ```
