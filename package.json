@@ -5,8 +5,10 @@
   "main": "dist/index.js",
   "scripts": {
     "test":
-      "./node_modules/.bin/mocha --compilers js:babel-core/register --reporter spec",
+      "npm run lint && npm run fmt_check && ./node_modules/.bin/mocha --compilers js:babel-core/register --reporter spec",
     "lint": "node ./node_modules/eslint/bin/eslint.js ./src",
+    "fmt_check":
+      "node ./node_modules/prettier/bin/prettier.js --config ./.prettierrc --list-different ./src/**/*.js",
     "fmt":
       "node ./node_modules/prettier/bin/prettier.js --config ./.prettierrc --write ./src/**/*.js"
   },
