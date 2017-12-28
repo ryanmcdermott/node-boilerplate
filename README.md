@@ -11,8 +11,11 @@ formatted, compiled, and tested.
 * Great CI Integration (all files must be formatted and linted before tests are
 	run)
 
+
 ## Installation
 ```bash
+git clone git@github.com:ryanmcdermott/node-boilerplate.git
+cd node-boilerplate
 npm install
 ```
 
