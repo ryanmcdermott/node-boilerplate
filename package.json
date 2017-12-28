@@ -1,9 +1,11 @@
 {
   "name": "node-boilerplate",
   "version": "0.0.1",
-  "description": "Simple starting point for a modern Node app",
+  "description": "Ridiculously simple starting point for a modern Node app",
   "main": "dist/index.js",
   "scripts": {
+    "build":
+      "node ./node_modules/babel-cli/bin/babel.js ./src --out-dir ./dist --copy-files",
     "test":
       "npm run lint && npm run fmt_check && ./node_modules/.bin/mocha --compilers js:babel-core/register --reporter spec",
     "lint": "node ./node_modules/eslint/bin/eslint.js ./src",
@@ -13,6 +15,7 @@
       "node ./node_modules/prettier/bin/prettier.js --config ./.prettierrc --write ./src/**/*.js"
   },
   "devDependencies": {
+    "babel-cli": "6.26.0",
     "babel-core": "6.17.0",
     "babel-preset-es2017": "6.24.1",
     "babel-preset-import-export": "1.0.2",
