@@ -1,4 +1,4 @@
-# node-boilerplate
+# node-boilerplate [![Build Status](https://api.travis-ci.org/ryanmcdermott/node-boilerplate.svg?branch=master)](https://travis-ci.org/ryanmcdermott/node-boilerplate)
 
 A **ridiculously simple** starting point for a modern Node app, that is linted,
 formatted, compiled, and tested.
