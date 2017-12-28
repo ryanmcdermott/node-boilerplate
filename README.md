@@ -1,6 +1,6 @@
 # node-boilerplate
 
-A *ridiculously simple* starting point for a modern Node app, that is linted,
+A **ridiculously simple** starting point for a modern Node app, that is linted,
 formatted, compiled, and tested.
 
 ## What does this have?
@@ -8,8 +8,8 @@ formatted, compiled, and tested.
 * ESLint (AirBnB base config)
 * Mocha + Chai tests
 * Babel transpilation
-* Great CI Integration (all files must be formatted and linted before tests are
-	run)
+* Great CI Integration (**all files must be formatted and linted before tests
+	are run**)
 
 
 ## Installation
