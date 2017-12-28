@@ -12,7 +12,8 @@
     "fmt_check":
       "node ./node_modules/prettier/bin/prettier.js --config ./.prettierrc --list-different ./src/**/*.js",
     "fmt":
-      "node ./node_modules/prettier/bin/prettier.js --config ./.prettierrc --write ./src/**/*.js"
+      "node ./node_modules/prettier/bin/prettier.js --config ./.prettierrc --write ./src/**/*.js",
+    "start": "npm run build && node ./dist/index.js"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",

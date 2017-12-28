@@ -19,12 +19,12 @@ cd node-boilerplate
 npm install
 ```
 
-## Building
+## Building example
 ```bash
 npm build
 ```
 
 ## Running
 ```bash
-npm run
+npm start
 ```
